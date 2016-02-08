@@ -4,13 +4,10 @@ Open source matlab toolboxes
 
 # Installation
 
-paste the following code in your matlab command window:
+Paste the following in your matlab command window and press enter:
 
 ```Matlab
-folder_name=uigetdir;
-urlwrite('https://raw.githubusercontent.com/alexdarlington/matlab_using/master/using.m',[folder_name '\using.m']);
-addpath(folder_name);
-savepath;
+eval(urlread('https://goo.gl/dLVDUY'))
 ```
 
 # Usage example
